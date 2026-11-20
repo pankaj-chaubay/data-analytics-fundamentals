@@ -1,0 +1,31 @@
+{
+  "sales": {
+    "r_squared": 0.968,
+    "condition_number": 145.1,
+    "max_difference_between_solvers": 7.105427357601002e-13,
+    "svd_explained_share": [
+      0.919,
+      0.037,
+      0.027,
+      0.018
+    ],
+    "mape_pct": 4.6,
+    "holdout_months": 6,
+    "next_6_months_total_k": 3599.6,
+    "next_6_months_total_with_20pct_more_marketing_k": 3659.1
+  },
+  "quality": {
+    "day_mean": 74.84,
+    "night_mean": 74.29,
+    "t": 0.59,
+    "p_value": "5.58e-01",
+    "cohens_d": 0.05,
+    "best_temperature_c": 21.5,
+    "night_shift_effect": -2.08,
+    "humidity_effect_per_pct": -0.135
+  },
+  "fraud": {
+    "transactions": 21755,
+    "fraud_share": 0.01
+  }
+}
